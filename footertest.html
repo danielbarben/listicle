@@ -1,0 +1,52 @@
+<footer className='ui vertical segment'>
+            <div className='ui container'>
+              <div className='ui two column divided stackable grid'>
+                {/*
+              <div className='center aligned row teaser-section'>
+                <a href='/'>
+                  <img
+                    src='https://interaktiv.tagesanzeiger.ch/inline-teaser.gif'
+                    className='portfolio-teaser'
+                  />
+                </a>
+              </div>
+            */}
+                <div className='stretched aligned row'>
+                  <div className='column'>
+                    <table className='ui definition very basic small infographic table'>
+                      <tbody>
+                        <tr style={{ paddingTop: '0.3em' }}>
+                          <td>
+                            Konzept, Programmierung und digitale Umsetzung
+                          </td>
+                          <td>
+                            Patrick Vögeli, Amir Mustedanagic, Kaspar Manz, Mathias Born und Daniel Barben
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className='column'>
+                    <FeedbackMessage
+                      mailTo='online@bernerzeitung.ch'
+                      question='Haben Sie Anmerkungen oder einen Fehler entdeckt?'
+                    />
+                    <div className='ui fluid share aligned container'>
+                      <ShareButtons
+                        articleId={ARTICLE_ID}
+                        displayType={displayTypes.VERTICAL_BUTTONS}
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div className='center aligned row'>
+                  <div className='column last' style={{ margin: 'auto' }}>
+                    <div className='ui fluid copyright container infographic'>
+                      <PolymorphicCopyrightNotice />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>

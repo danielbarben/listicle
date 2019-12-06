@@ -1,0 +1,40 @@
+.links {
+  margin: 0px auto 60px auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.portrait {
+  width:100px;
+}
+.navitem {
+  text-align:center;
+  width:200px;
+  margin:10px 10px 30px 10px;
+}
+a {
+  text-decoration: none;
+  color: black
+}
+.navitem h2 {
+  margin-bottom: 10px;
+  font-size: 6vw;
+  text-decoration:none;
+  color: #888888;
+}
+.navitem .more {
+  font-size: 5vw;
+  font-family: Roboto, sans-serif;
+  color:#888888;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .navitem h2 {
+    font-size: 24px;
+  }
+  .navitem .more {
+    font-size: 18px;
+  }
+}

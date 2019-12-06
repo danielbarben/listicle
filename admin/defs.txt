@@ -1,0 +1,17 @@
+h1
+12vw / 72px
+margin: 80px 10px 30px 10px;
+
+
+Lead
+6vw / 32px
+margin: 0 10px 60px 10px;
+
+h2
+6vw / 24px 
+
+more
+5vw / 18px
+
+Grey:
+888888
