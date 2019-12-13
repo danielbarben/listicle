@@ -7,6 +7,14 @@
   margin-top: 100px;
   text-align:center;
   font-size: 8vw;
+  color:#6d277d;
+}
+
+.content h3 {
+  margin-top: 0px;
+  text-align:center;
+  font-size: 6vw;
+  color:#888888;
 }
 
 .person {
@@ -19,31 +27,46 @@
 .content .text {
   max-width: 300px;
   margin: 10px;
-  text-align: justify;
+  text-align:left;
 }
 
 .content .portrait {
-  width: 200px;
+  width: 250px;
   margin: auto;
+  margin-top: 10px;
 }
 
 .quote {
   max-width:300px;
   margin:10px 10px 10px 10px;
   font-size:24px;
-  color:#90000C;
+  line-height:1.5;
+  color: #6d277d;
 }
 
 .content .center {
   text-align:center;
 }
 
+.content .more {
+  font-size: 5vw;
+  font-family: Roboto, sans-serif;
+  color:#6d277d;
+  border-top:1px solid grey;
+  margin-top:10px;
+}
 
 @media only screen and (min-width: 600px) {
   .content h2 {
     font-size:24px;
   }
+  .content h3 {
+    font-size: 18px;
+  }
   .content .text {
     width: 300px;
+  }
+  .content .more {
+    font-size: 18px;
   }
 }

@@ -10,7 +10,7 @@
 }
 .navitem {
   text-align:center;
-  width:200px;
+  width:120px;
   margin:10px 10px 30px 10px;
 }
 a {
@@ -21,19 +21,21 @@ a {
   margin-bottom: 10px;
   font-size: 6vw;
   text-decoration:none;
-  color: #888888;
+  color:#6d277d;
 }
 .navitem .more {
   font-size: 5vw;
   font-family: Roboto, sans-serif;
-  color:#888888;
+  color:#6d277d;
 }
-
 
 @media only screen and (min-width: 600px) {
   .navitem h2 {
     font-size: 24px;
   }
+  .navitem {
+  width:200px;
+}
   .navitem .more {
     font-size: 18px;
   }

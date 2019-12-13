@@ -27,8 +27,8 @@ class Footer extends Component {
               <table className='ui definition very basic small infographic table'>
                 <tbody>
                   <tr style={{ paddingTop: '0.3em' }}>
-                    <td>Text</td>
-                    <td>J.K. Rowling</td>
+                    <td>Texte</td>
+                    <td>Sandra Rutschi, Chantal Desbiolles, Mirjam Comtesse, Marina Bolzli</td>
                   </tr>
                   <tr>
                     <td>Digitale Umsetzung</td>
@@ -44,7 +44,7 @@ class Footer extends Component {
                     />
                     <div className='ui fluid share aligned container'>
                       <ShareButtons
-                        articleId='16267582'
+                        articleId='11712673'
                         displayType={displayTypes.VERTICAL_BUTTONS}
                       />
                     </div>

@@ -13,9 +13,10 @@ import Footer from '../Footer';
 function App() {
   return (
     <div className="App">
-      <Masthead articleId='16267582'/>
-      <h1>Aparecium</h1>
-      <div className="lead" id="top">Thestral dirigible plums, Viktor Krum hexed memory charm Animagus Invisibility Cloak three-headed Dog. Half-Blood Prince Invisibility Cloak cauldron cakes, hiya Harry!</div>
+      <Masthead articleId='11712673'/>
+      <h1>Was der Frauenstreik verändert hat</h1>
+      <div className="lead" id="top">Über eine halbe Million violett gekleideter Frauen und Männer zog am 14. Juni 2019 durch die Schweizer Städte. Wir haben bei Vertreterinnen und Vertretern verschiedener Branchen nachgefragt, was in diesem halben Jahr passiert ist.
+</div>
       <Navigation />
       <Content />
       

@@ -1,0 +1,17 @@
+from lxml import etree
+from io import StringIO
+import json
+texte = []
+for line in open('parlament_transcriptions.jsonl'):
+  jsondict = json.loads(line)
+  if jsondict['LanguageOfText'] == 'DE':
+    text_with_xml = jsondict['Text']
+    tree = etree.parse(StringIO(text_with_xml))
+    text_without_xml = etree.tostring(tree, encoding="unicode", method="text")
+    texte.append(text_without_xml)
+print(text[3])
+
+
+for text in texte[:3]:
+  doc = nlp(text)
+  displacy.render(doc, style="ent" ,jupyter=True)
